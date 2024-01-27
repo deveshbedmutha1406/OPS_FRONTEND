@@ -1,24 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import RegistrationForm from './components/RegistrationForm';
+import LoginForm from './components/Login';
+import DashBoard from './components/DashBoard';
+import CreateTest from './components/CreateTest';
+import UpdateTest from './components/UpdateTest';
+import MCQForm from './components/McqForm';
+import UpdateMcq from './components/UpdateMcq';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/register" Component={RegistrationForm} />
+          <Route path="/login" Component={LoginForm} />
+          <Route path="/dashboard" Component={DashBoard} />
+          <Route path="/createTest" Component={CreateTest} /> 
+          <Route path="/updateTest" Component={UpdateTest} />
+          <Route path="/mcqForm/:testId" Component={MCQForm} />
+          <Route path="/showMcq/:testId" Component={UpdateMcq} />
+          
+        </Routes>
+      </div>
+    </Router>
+
   );
 }
 

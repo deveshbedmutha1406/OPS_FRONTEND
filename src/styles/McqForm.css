@@ -1,0 +1,45 @@
+/* MCQForm.css */
+.mcq-form-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .mcq-form-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .mcq-form-card .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .mcq-form-card label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .mcq-form-card input[type="text"],
+  .mcq-form-card input[type="number"],
+  .mcq-form-card select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .mcq-form-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .mcq-form-card button:hover {
+    background-color: #0056b3;
+  }
+  

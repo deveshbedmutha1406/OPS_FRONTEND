@@ -1,0 +1,43 @@
+/* styles.css */
+.registration-card {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+  }
+  
+  .registration-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-card input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .registration-card button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .registration-card {
+    background-color: gray;
+    background-size: cover;
+  }
+  
