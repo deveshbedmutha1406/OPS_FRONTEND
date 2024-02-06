@@ -7,6 +7,7 @@ import CreateTest from './components/CreateTest';
 import UpdateTest from './components/UpdateTest';
 import MCQForm from './components/McqForm';
 import UpdateMcq from './components/UpdateMcq';
+import Test  from './components/Test';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/updateTest" Component={UpdateTest} />
           <Route path="/mcqForm/:testId" Component={MCQForm} />
           <Route path="/showMcq/:testId" Component={UpdateMcq} />
+          <Route path='/test' Component={Test}/>
           
         </Routes>
       </div>

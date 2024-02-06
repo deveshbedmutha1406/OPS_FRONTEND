@@ -1,0 +1,26 @@
+.Myoptions{
+    display: grid; 
+    grid-template-rows:auto auto;
+    grid-template-columns: 50% 50%; 
+    column-gap:5px;
+    row-gap: 20px;
+    padding:5px;
+}
+
+.Mycard{
+    display:grid; 
+    grid-template-rows:auto auto; 
+    margin:5px; 
+    background-color:gray; 
+    border-radius: 10px;
+}
+
+.Myquestion{
+    background-color:gray; display:flex; justify-content:center ;border-radius: 10px
+}
+.MyinsideOption {
+    border: 1px solid black;
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px white;
+}
